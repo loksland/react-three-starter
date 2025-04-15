@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
 import tailwindcss from '@tailwindcss/vite';
 
-const publishSubDirPath = 'rect-three-starter/'; // Trail path with slash
+const publishSubDirPath = 'react-three-starter/'; // Trail path with slash
 
 export default defineConfig({
   plugins: [tailwindcss(), react()],
